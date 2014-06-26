@@ -1,4 +1,4 @@
-GridFolio
+GridFolio - Android Aplication version 1.0
 =========
 
 The Problem
