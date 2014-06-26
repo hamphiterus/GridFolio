@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/projetoAdd"
+        android:icon="@drawable/atalho_projeto"
+        android:showAsAction="ifRoom"
+        android:title="@string/Login" />
+    <item
+        android:id="@+id/eventsAdd"
+        android:icon="@drawable/atalho_evento"
+        android:showAsAction="ifRoom"
+        android:title="@string/Login" />
+    
+    <item android:id="@+id/menu_search"
+          android:title="@string/menu_search"
+          android:icon="@drawable/lupa"
+          android:showAsAction="ifRoom|collapseActionView"
+          android:actionViewClass="android.widget.SearchView" />
+</menu>

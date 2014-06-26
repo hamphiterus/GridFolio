@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="1"
+    android:background="@drawable/blue_bg" >
+
+    <!-- Menu Panel -->
+
+    <RelativeLayout
+        android:id="@+id/menuPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/gray_bg"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/menu_title_1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:background="#353535"
+            android:drawableLeft="@drawable/perfil"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/white" >
+        </Button>
+
+        <View
+            android:id="@+id/menu_item_divider_1"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/menu_title_1"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="#b5b5b5" />
+
+        <Button
+            android:id="@+id/button_perfil"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/menu_item_divider_1"
+            android:layout_marginLeft="2dp"
+            android:drawableLeft="@drawable/perfil"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/perfil_menu"
+            android:textColor="@android:color/white" >
+        </Button>
+
+        <View
+            android:id="@+id/menu_item_divider_2"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/button_perfil"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#b5b5b5" />
+
+        <Button
+            android:id="@+id/button_eventos"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/menu_item_divider_2"
+            android:layout_marginLeft="2dp"
+            android:drawableLeft="@drawable/eventosicon"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/events_menu"
+            android:textColor="@android:color/white" >
+        </Button>
+
+        <View
+            android:id="@+id/menu_item_divider_3"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/button_eventos"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#b5b5b5" />
+
+        <Button
+            android:id="@+id/button_mapa"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/menu_item_divider_3"
+            android:layout_marginLeft="2dp"
+            android:drawableLeft="@drawable/mapamaior"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/map_menu"
+            android:textColor="@android:color/white" >
+        </Button>
+
+        <View
+            android:id="@+id/menu_item_divider_4"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/button_mapa"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#b5b5b5" />
+
+        <Button
+            android:id="@+id/button_projetos"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/menu_item_divider_4"
+            android:layout_marginLeft="2dp"
+            android:drawableLeft="@drawable/projectos"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/projets_menu"
+            android:textColor="@android:color/white" >
+        </Button>
+
+        <View
+            android:id="@+id/menu_item_divider_5"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/button_projetos"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#b5b5b5" />
+        
+        <Button
+            android:id="@+id/button_credits"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/menu_item_divider_5"
+            android:layout_marginLeft="2dp"
+            android:drawableLeft="@drawable/ic_creditos"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/credits_menu"
+            android:textColor="@android:color/white" >
+        </Button>
+
+        <View
+            android:id="@+id/menu_item_divider_6"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/button_credits"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#b5b5b5" />
+        
+    </RelativeLayout>
+
+    <!-- Sliding Panel -->
+
+    <LinearLayout
+        android:id="@+id/slidingPanel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:gravity="left"
+        android:orientation="vertical" >
+        
+        <RelativeLayout
+	        android:id="@+id/topBar"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"        
+	        android:layout_marginTop="0dp"               
+	        android:background="@android:color/background_dark" >
+
+        <ImageView
+            android:id="@+id/previous"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/dateSwitcher"
+            android:clickable="true"
+            android:onClick="previousMonth"
+            android:src="@drawable/ic_arrow_left" />
+
+        <TextView
+            android:id="@+id/dateSwitcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="30sp"
+            android:textColor="#ffffff" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/dateSwitcher"
+            android:clickable="true"
+            android:onClick="nextMonth"
+            android:src="@drawable/ic_arrow_right"
+             />
+    </RelativeLayout>
+
+        <View
+            android:id="@+id/dividerHeaderBottom"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#414141" />
+
+
+            <TableLayout
+                android:id="@+id/tableLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:shrinkColumns="*,true"
+                android:stretchColumns="0,true" >
+
+	             <TableRow
+	                    android:id="@+id/tableRow2"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content" >
+	
+	                    <GridView
+					      android:id="@+id/gridViewMyEvents"
+					      android:layout_width="wrap_content"
+	                      android:layout_height="wrap_content"
+	                      android:layout_column="0"
+	                      android:gravity="center"
+	                      android:horizontalSpacing="5dp"
+	                      android:numColumns="3"
+	                      android:stretchMode="columnWidth"
+	                      android:verticalSpacing="10dp" >
+					  </GridView>	
+	
+	            </TableRow>
+            </TableLayout>
+    
+    </LinearLayout>
+
+</FrameLayout>

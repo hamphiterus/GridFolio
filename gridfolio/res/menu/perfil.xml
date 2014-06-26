@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/perfilExport"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_settings"
+        android:icon="@drawable/export"/>
+    <item
+        android:id="@+id/perfilEditar"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_settings"
+        android:icon="@drawable/editar"/>
+    
+    <item android:id="@+id/menu_search"
+          android:title="@string/menu_search"
+          android:icon="@drawable/lupa"
+          android:showAsAction="ifRoom|collapseActionView"
+          android:actionViewClass="android.widget.SearchView" />
+
+</menu>

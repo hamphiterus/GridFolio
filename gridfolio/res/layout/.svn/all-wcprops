@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/gridfolio/!svn/ver/105/res/layout
+END
+activity_events.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/gridfolio/!svn/ver/103/res/layout/activity_events.xml
+END
+activity_edit_profile.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gridfolio/!svn/ver/104/res/layout/activity_edit_profile.xml
+END
+dialog_events.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/gridfolio/!svn/ver/103/res/layout/dialog_events.xml
+END
+activity_show_my_events.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gridfolio/!svn/ver/75/res/layout/activity_show_my_events.xml
+END
+activity_edit_project.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gridfolio/!svn/ver/104/res/layout/activity_edit_project.xml
+END
+activity_register_or_login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gridfolio/!svn/ver/103/res/layout/activity_register_or_login.xml
+END
+mygrid_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/gridfolio/!svn/ver/54/res/layout/mygrid_layout.xml
+END
+activity_map.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/gridfolio/!svn/ver/74/res/layout/activity_map.xml
+END
+logo_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/gridfolio/!svn/ver/1/res/layout/logo_view.xml
+END
+pop_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/gridfolio/!svn/ver/76/res/layout/pop_layout.xml
+END
+activity_perfil.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/gridfolio/!svn/ver/104/res/layout/activity_perfil.xml
+END
+activity_register.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/gridfolio/!svn/ver/103/res/layout/activity_register.xml
+END
+activity_edit_event.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/gridfolio/!svn/ver/105/res/layout/activity_edit_event.xml
+END
+grid_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/gridfolio/!svn/ver/5/res/layout/grid_item.xml
+END
+activity_create_project.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gridfolio/!svn/ver/103/res/layout/activity_create_project.xml
+END
+dialog_signin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/gridfolio/!svn/ver/37/res/layout/dialog_signin.xml
+END
+activity_credits.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/gridfolio/!svn/ver/103/res/layout/activity_credits.xml
+END
+activity_ver_projeto.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/gridfolio/!svn/ver/105/res/layout/activity_ver_projeto.xml
+END
+activity_show_my_projects.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gridfolio/!svn/ver/103/res/layout/activity_show_my_projects.xml
+END
+activity_layer_stack.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/gridfolio/!svn/ver/75/res/layout/activity_layer_stack.xml
+END
+activity_ver_evento_feito.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gridfolio/!svn/ver/103/res/layout/activity_ver_evento_feito.xml
+END
+simple_listview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/gridfolio/!svn/ver/68/res/layout/simple_listview.xml
+END

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gray_bg"
+    android:orientation="vertical" >
+    
+    <EditText 
+        android:id="@+id/editNotes"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:hint="@string/notes"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+        
+        <requestFocus/>
+    </EditText>
+    
+    <View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="#b5b5b5"/>
+    
+    <LinearLayout
+	    android:id="@+id/layout_image"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+    
+        <com.pt.ua.deti.gridfolio.PagerContainer
+			android:id="@+id/pager_container"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:background="@drawable/gray_bg" >
+
+      		<android.support.v4.view.ViewPager
+	        	android:layout_width="150dp"
+	          	android:layout_height="150dp"
+	          	android:layout_gravity="center_horizontal" />
+		        
+		</com.pt.ua.deti.gridfolio.PagerContainer>       
+	</LinearLayout>
+
+</LinearLayout>

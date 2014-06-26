@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="title_activity_newproject">New Project</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_date">Date</string>
+    <string name="prompt_titulo">Título</string>
+    <string name="prompt_disciplina">Disciplina</string>
+    <string name="prompt_professores">Professores</string>
+    <string name="prompt_descricao">Descrição</string>
+</resources>

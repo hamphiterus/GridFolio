@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pt.ua.deti.gridfolio"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <permission
+        android:name="com.pt.ua.deti.gridfolio.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.pt.ua.deti.gridfolio.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+ 		android:glEsVersion="0x00020000"
+ 		android:required="true" />
+    
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/sogf"
+        android:label="@string/app_name"
+        android:logo="@drawable/sogf"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.LogoActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.LayerStack"
+            android:label="@string/app_name"
+            android:logo="@drawable/menu" >
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.EventsActivity"
+            android:label="@string/title_activity_events"
+            android:logo="@drawable/menu" >
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.PerfilActivity"
+            android:label="@string/title_activity_perfil"
+            android:logo="@drawable/menu" >
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.AddProject"
+            android:label="@string/title_activity_newproject"
+            android:logo="@drawable/menu" >
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.MapActivity"
+            android:label="@string/title_activity_map"
+            android:logo="@drawable/menu" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDqT5XnvmpZnSrNVZwSAl9WxKmqeyqn2hM" />
+
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.VerProjetoActivity"
+            android:label="@string/title_activity_ver_projeto"
+            android:logo="@drawable/menu" >
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.Register"
+            android:configChanges="orientation|keyboard"
+            android:label="@string/title_activity_register"
+            android:logo="@drawable/menu" >
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.RegisterOrLoginActivity"
+            android:label="@string/title_activity_register_or_login"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.CreditsActivity"
+            android:label="@string/title_activity_credits"
+            android:logo="@drawable/menu" >
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.ShowMyEventsActivity"
+            android:label="@string/title_activity_show_my_events"
+            android:logo="@drawable/menu" >
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.ShowMyProjectsActivity"
+            android:label="@string/title_activity_show_my_projects"
+            android:logo="@drawable/menu" >
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.VerEventoFeitoActivity"
+            android:label="@string/title_activity_ver_evento_feito"
+            android:logo="@drawable/menu" >
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.CreateProjectActivity"
+            android:label="@string/title_activity_create_project"
+            android:logo="@drawable/menu" >
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.EditProfileActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:logo="@drawable/menu" >
+        </activity>
+        <activity
+            android:name="com.pt.ua.deti.gridfolio.EditProjectActivity"
+            android:label="@string/title_activity_edit_event"
+            android:logo="@drawable/menu" >
+        </activity>
+    </application>
+	
+</manifest>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gridfolio/!svn/ver/100/src/com/pt/ua/deti/gridfolio/singleton
+END
+AppDataProject.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gridfolio/!svn/ver/100/src/com/pt/ua/deti/gridfolio/singleton/AppDataProject.java
+END
+AppDataEventsBreve.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gridfolio/!svn/ver/93/src/com/pt/ua/deti/gridfolio/singleton/AppDataEventsBreve.java
+END
+AppDataEventsAmanha.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gridfolio/!svn/ver/93/src/com/pt/ua/deti/gridfolio/singleton/AppDataEventsAmanha.java
+END
+AppDataEventsHoje.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gridfolio/!svn/ver/92/src/com/pt/ua/deti/gridfolio/singleton/AppDataEventsHoje.java
+END
+AppDataAllEvents.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gridfolio/!svn/ver/95/src/com/pt/ua/deti/gridfolio/singleton/AppDataAllEvents.java
+END
+AppDataUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gridfolio/!svn/ver/88/src/com/pt/ua/deti/gridfolio/singleton/AppDataUser.java
+END
